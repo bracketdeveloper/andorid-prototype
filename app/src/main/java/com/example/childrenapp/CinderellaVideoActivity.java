@@ -16,7 +16,7 @@ public class CinderellaVideoActivity extends AppCompatActivity {
 
         cinderellaVideo = findViewById(R.id.cinderella_video);
 
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.entertainment_video_1;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.cenderlla;
 
         Uri uri = Uri.parse(videoPath);
         cinderellaVideo.setVideoURI(uri);

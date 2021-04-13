@@ -13,7 +13,7 @@ public class PoemActvity3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_poem_actvity3);
-        poemVideo3 = findViewById(R.id.entertainment_video_1);
+        poemVideo3 = findViewById(R.id.poem_video_3);
 
         String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.poem_3;
 

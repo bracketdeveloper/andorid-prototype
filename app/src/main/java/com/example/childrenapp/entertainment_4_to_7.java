@@ -66,16 +66,12 @@ public class entertainment_4_to_7 extends AppCompatActivity {
         if (audioPlayer == null){
             audioPlayer = MediaPlayer.create(this, R.raw.section_5_to_7);
             audioPlayer.start();
-            long totalDuration = audioPlayer.getDuration();
-            String str = Long.toString(totalDuration);
-            Toast toast =Toast.makeText(getApplicationContext(), str,Toast.LENGTH_SHORT);
-            toast.show();
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
                 public void run() {
                     audioPlayer = null;
                 }
-            }, 3744);   //5 seconds
+            }, 4128);   //5 seconds
 
         }
     }

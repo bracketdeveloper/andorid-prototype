@@ -14,7 +14,7 @@ public class PoemActvity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_poem_actvity1);
 
-        poemVideo1 = findViewById(R.id.entertainment_video_1);
+        poemVideo1 = findViewById(R.id.poem_video_1);
 
         String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.poem_1;
 

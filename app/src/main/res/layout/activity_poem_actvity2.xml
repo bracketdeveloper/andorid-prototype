@@ -24,7 +24,7 @@
                 android:layout_marginBottom="20dp"
                 android:text="Let's Learn About Twinkle Star"
                 android:textColor="#fff"
-                android:textSize="55px" />
+                android:textSize="45px" />
         </LinearLayout>
 
         <LinearLayout
