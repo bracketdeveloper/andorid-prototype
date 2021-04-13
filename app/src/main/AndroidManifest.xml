@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.childrenapp" >
+    package="com.example.childrenapp">
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,33 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".MainActivity" >
+        android:theme="@style/AppTheme">
+        <activity android:name=".Table4VideoActivity"></activity>
+        <activity android:name=".Table3VideoActivity" />
+        <activity android:name=".Table2VideoActivity" />
+        <activity android:name=".CinderellaVideoActivity" />
+        <activity android:name=".DoctorVideoActivity" />
+        <activity android:name=".PoemActvity3" />
+        <activity android:name=".PoemActvity2" />
+        <activity android:name=".PoemActvity1" />
+        <activity android:name=".CountingVideoActivity" />
+        <activity android:name=".AbcVideoActivity" />
+        <activity android:name=".entertainment_video_3" />
+        <activity android:name=".entertainment_video_2" />
+        <activity android:name=".entertainment_video_1" />
+        <activity android:name=".Education_Video_3" />
+        <activity android:name=".Education_Video_2" />
+        <activity android:name=".Education_Video_1" />
+        <activity android:name=".entertainment_8" />
+        <activity android:name=".entertainment_4_to_7" />
+        <activity android:name=".entertainment_1_to_4" />
+        <activity android:name=".education_8" />
+        <activity android:name=".education_4_to_7" />
+        <activity android:name=".Education_1_to_4" />
+        <activity android:name=".Entertainment" />
+        <activity android:name=".Education" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

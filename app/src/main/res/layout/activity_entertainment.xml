@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entertainment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/saplash_background"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Entertainment Section"
+                android:textColor="#fff"
+                android:textSize="65px" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text="Kindly select your age range.."
+                android:textSize="45px"
+                android:layout_marginBottom="20dp"/>
+            <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/round_btn"
+                android:drawableTop="@drawable/speaker"
+                android:id="@+id/btn_audio_entertainment"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:foregroundGravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/ic_1_4"
+                android:background="@drawable/round_btn"
+                android:layout_marginRight="15px"
+                android:textSize="25px"
+                android:text="Ages 1 - 4"
+                android:id="@+id/btn_entertainment_1_to_4_age"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15px"
+                android:textSize="25px"
+                android:drawableTop="@drawable/ic_5_7"
+                android:background="@drawable/round_btn"
+                android:text="Ages 5 - 7"
+                android:id="@+id/btn_entertainment_5_to_7_age"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:drawableTop="@drawable/ic_8_12"
+                android:textSize="25px"
+                android:text="Ages 8 - 12"
+                android:id="@+id/btn_entertainment_8_age"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
