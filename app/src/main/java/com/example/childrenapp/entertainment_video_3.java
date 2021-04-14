@@ -15,7 +15,7 @@ public class entertainment_video_3 extends AppCompatActivity {
         setContentView(R.layout.activity_entertainment_video_3);
         entertainmentVideo3 = findViewById(R.id.entertainment_video_3);
 
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.entertainment_video_2;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.entertainment_video_3;
 
         Uri uri = Uri.parse(videoPath);
         entertainmentVideo3.setVideoURI(uri);

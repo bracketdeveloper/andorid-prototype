@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/saplash_background"
         android:gravity="center">
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,13 +22,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="8 Years and Above Section"
-                android:textColor="#fff"
+                android:text="8 to 10 Years Section"
+                android:textColor="#000"
                 android:textSize="50px" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:text="Kindly select Activity"
                 android:textSize="45px"
                 android:layout_marginBottom="20dp"/>
@@ -37,8 +36,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/round_btn"
-                android:drawableTop="@drawable/speaker"
+                android:background="@null"
+                android:drawableTop="@drawable/ic_speaker"
                 android:id="@+id/btn_entertainment_8_audio"
                 />
 
@@ -58,11 +57,13 @@
                 android:text="Learning about Leap Year"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
+                android:textColor="#fff"
                 android:id="@+id/btn_entertainment_video_1"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
+                android:textColor="#fff"
                 android:text="Learning about Sky"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
@@ -71,6 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
+                android:textColor="#fff"
                 android:text="Learning about Internet"
                 android:textSize="20dp"
                 android:layout_margin="20dp"

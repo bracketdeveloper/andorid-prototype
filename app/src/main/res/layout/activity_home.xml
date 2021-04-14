@@ -8,22 +8,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/saplash_background"
         android:gravity="center"
         android:orientation="vertical"
         >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#fff"
+            android:textColor="#000"
             android:text="Kindly select one option"
             android:textSize="60px"/>
         <Button
             android:layout_marginTop="20dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:background="@drawable/round_btn"
-            android:drawableTop="@drawable/speaker"
+            android:background="@null"
+            android:drawableTop="@drawable/ic_speaker"
             android:id="@+id/btn_audio_home"
             />
         <Button
@@ -31,6 +30,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:id="@+id/btn_education"
+            android:textColor="#fff"
             android:drawableTop="@drawable/ic_education"
             android:text="Education"
             android:background="@drawable/round_btn"/>
@@ -39,6 +39,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:id="@+id/btn_entertainment"
+            android:textColor="#fff"
             android:drawableTop="@drawable/ic_entertainment"
             android:text="Entertainment"
             android:background="@drawable/round_btn"/>

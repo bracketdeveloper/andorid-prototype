@@ -9,7 +9,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/saplash_background"
         android:gravity="center">
 
         <LinearLayout
@@ -24,12 +23,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="1 to 4 Years Section"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:textSize="80px" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#fff"
+                android:textColor="#000"
                 android:text="Kindly select Activity"
                 android:textSize="45px"
                 android:layout_marginBottom="20dp"/>
@@ -37,8 +36,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/round_btn"
-                android:drawableTop="@drawable/speaker"
+                android:background="@null"
+                android:drawableTop="@drawable/ic_speaker"
                 android:id="@+id/btn_audio_1_4"
                 />
 
@@ -55,6 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
+                android:textColor="#fff"
                 android:text="Play ABC Tune"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
@@ -63,6 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
+                android:textColor="#fff"
                 android:text="Play 1 To 20 Counting"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
