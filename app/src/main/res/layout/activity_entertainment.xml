@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="#ffaa01">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -19,18 +20,22 @@
             android:layout_marginTop="100dp">
 
             <TextView
+                android:textAllCaps="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="Entertainment Section"
-                android:textColor="#000"
-                android:textSize="65px" />
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                 />
             <TextView
+                android:textAllCaps="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000"
-                android:text="Kindly select your age range.."
-                android:textSize="45px"
+                android:textColor="#FFF"
+                android:text="Kindly select your age range"
+                android:textSize="16dp"
+
                 android:layout_marginBottom="20dp"/>
             <Button
                 android:layout_marginTop="20dp"
@@ -55,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:drawableTop="@drawable/ic_1_4"
                 android:background="@drawable/round_btn"
-                android:textColor="#fff"
+                android:textColor="#ffaa01"
                 android:layout_marginRight="15px"
                 android:textSize="25px"
                 android:text="Ages 1 - 4"
@@ -66,7 +71,7 @@
                 android:layout_marginRight="15px"
                 android:textSize="25px"
                 android:drawableTop="@drawable/ic_5_7"
-                android:textColor="#fff"
+                android:textColor="#ffaa01"
                 android:background="@drawable/round_btn"
                 android:text="Ages 5 - 7"
                 android:id="@+id/btn_entertainment_5_to_7_age"/>
@@ -74,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
-                android:textColor="#fff"
+                android:textColor="#ffaa01"
                 android:drawableTop="@drawable/ic_8_12"
                 android:textSize="25px"
                 android:text="Ages 8 - 10"

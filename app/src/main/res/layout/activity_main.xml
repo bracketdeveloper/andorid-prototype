@@ -9,15 +9,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="#ffaa01"
         >
 
         <TextView
+            android:textAllCaps="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Education &amp; Entertainment Altogether..."
-            android:textSize="70px"
+            android:text="Education &amp; Entertainment Altogether"
+            android:textSize="18dp"
             android:textAlignment="center"
-            android:textColor="#000"/>
+            android:textColor="#FFF"/>
 
         <ImageView
             android:id="@+id/imageView"

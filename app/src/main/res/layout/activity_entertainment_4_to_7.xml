@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:background="#ffaa01">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,18 +19,22 @@
             android:layout_marginTop="100dp">
 
             <TextView
+                android:textAllCaps="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:text="5 to 7 Years Section"
-                android:textColor="#000"
-                android:textSize="80px" />
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                />
             <TextView
+                android:textAllCaps="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#fff"
                 android:text="Kindly select Activity"
-                android:textSize="45px"
+                android:textSize="16dp"
+
                 android:layout_marginBottom="20dp"/>
             <Button
                 android:layout_marginTop="20dp"
@@ -53,7 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
-                android:textColor="#fff"
+                android:textColor="#ffaa01"
                 android:text="Play Rain Poem"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
@@ -62,7 +67,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
-                android:textColor="#fff"
+                android:textColor="#ffaa01"
                 android:text="Play Twinkle Star Poem"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
@@ -71,7 +76,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_btn"
-                android:textColor="#fff"
+                android:textColor="#ffaa01"
                 android:text="Play 5 Monkeys Poem"
                 android:textSize="20dp"
                 android:layout_margin="20dp"
